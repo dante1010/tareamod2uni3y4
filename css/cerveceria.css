@@ -5,7 +5,7 @@ footer {
     font-size: large;
     text-decoration: underline;
     color: blueviolet;
-    margin-top: 70px;
+    margin-top:  150px;
 }
 
 h1 {
@@ -23,10 +23,17 @@ h1 {
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Staatliches', cursive;
     text-decoration: underline;
     color: darkgoldenrod;
     margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+#novedades{
+
+    padding-top: 150px;
 }
 
 .lista-novedades {
@@ -76,6 +83,14 @@ h2 {
     font-family: 'Staatliches', cursive;
 }
 
+
+
+#carouselExampleCaptions{
+    
+    
+padding-top: 150px;
+}
+
 .carousel-control-next-icon {
     background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e);
 }
@@ -87,4 +102,38 @@ h2 {
     background-color: goldenrod;
 }
 
+#historia{
+    padding-top: 150px;
+}
+
+
+/*.card-deck {
+    background-color: goldenrod;
+    border-style:double;
+    border-radius: 10px; 
+    background-image: url("img.header.jpg")
+    
+} */
+
+.row {
+    margin-left: 0px;
+
+}
+.boton {
+    margin-left: 15px;
+       
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active ,.btn-secondary, .btn-secondary.focus, .btn-secondary:focus{
+    color: goldenrod;
+    background-color: beige;
+    font-family: 'Staatliches', cursive;
+    font-size: large;
+
+}
+
+#contacto{
+   margin-top: 150px;
+}
+  
 

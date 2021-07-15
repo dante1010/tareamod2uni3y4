@@ -33,13 +33,16 @@
           <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#Novedades">Novedades</a>
+          <a class="nav-link" href="#novedades">Novedades</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Historia</a>
+          <a class="nav-link" href="#historia">Historia</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#carouselExampleCaptions">Conocenos</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -53,11 +56,11 @@
           voluptates unde illo repellat placeat voluptate?</p>
       </div>
     </div>
-
-    <div id="Novedades" class="row py-4">
+    <!-- inicio NOVEDADES -->
+    <div id="novedades">
       <div class="col-md-5 offset-md-4 py3">
 
-        <h2> NOVEDADES:</h2>
+
         <ul class="lista-novedades">
           <li><a data-toggle="modal" data-target="#exampleModal1" href="#"><img src="img/novedades01.jpg"> Cerveza 1</a>
           </li>
@@ -71,9 +74,9 @@
           </li>
         </ul>
       </div>
+      <!-- fin NOVEDADES-->
 
-
-      <!-- Modal -->
+      <!-- inicio modal dentro de novedades -->
       <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="#exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -92,13 +95,41 @@
           </div>
         </div>
       </div>
+      <!-- fin modal -->
 
     </div>
+    <!-- inicio historia -->
+    <div id="historia"> </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <img src="img/historia_1.jpg" class="card-img-top" alt="historia1">
+        <div class="card-body">
+          <h5 class="card-title">Primeros pasos: </h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cupiditate in sint
+            laboriosam sapiente nam voluptatem harum adipisci nisi est blanditiis, quos, optio nihil! Accusantium iure
+            voluptas odit beatae ex.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/historia_2.jpg" class="card-img-top" alt="historia2">
+        <div class="card-body">
+          <h5 class="card-title">Hoy en dia: </h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore perferendis obcaecati
+            eos ratione vel dignissimos ut aliquid, quae quibusdam nulla sunt recusandae fugit dolore delectus molestiae
+            possimus laboriosam ipsum non.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <!-- fin historia -->
 
 
-    <!-- INICIO CARRUSEL -->
+    <!-- INICIO CONOCENOS -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <h2 class="col-md-5 offset-md-4 py3"> CONOCENOS: </h2>
+      <div class="col-md-5 offset-md-4 py3"></div>
+
       <ol class="carousel-indicators">
 
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -146,7 +177,49 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <!-- fin CONOCENOS -->
 
+
+
+    <!-- CONTACTO -->
+
+    <div id="contacto" class="hero">
+
+      <form>
+        <div class="form row">
+          <div class="form-group col-md-3 ">
+
+            <label for="exampleFormControlInput1">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="exampleFormControlSelect1">Apellido</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="exampleFormControlSelect1">Mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="exampleFormControlSelect1">Telefono</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="exampleFormControlTextarea1">Dejanos tu comentario: </label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="btn-group-toggle boton" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="checkbox" checked> Enviar
+          </label>
+        </div>
+
+      </form>
+    </div>
+
+
+    <!-- FIN CONTACTO -->
 
     <div class="container">
       <footer>
